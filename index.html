@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOTWIC's Riven Processor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="frosted-overlay-left"></div>
+            <div class="form">
+                <button id="generate-config-btn">Generate Config Code</button>
+                <button id="add-roll-btn">Add Roll</button>
+                <button id="load-config-btn">Load Config Code</button>
+                <div id="rolls-container"></div>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="frosted-overlay-right"></div>
+            <input type="text" id="search-bar" placeholder="Search..." class="search-bar">
+            <div id="tab-container">
+                <!-- Tabs will be added here dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <div id="roll-popup" class="popup" style="display: none;">
+        <div class="popup-content">
+            <h3>Add Roll</h3>
+            <div>
+                <label for="dropdown1">Option 1:</label>
+                <select id="dropdown1"></select>
+            </div>
+            <div>
+                <label for="dropdown2">Option 2:</label>
+                <select id="dropdown2"></select>
+            </div>
+            <div>
+                <label for="dropdown3">Option 3:</label>
+                <select id="dropdown3"></select>
+            </div>
+            <div>
+                <label for="dropdown4">Option 4:</label>
+                <select id="dropdown4"></select>
+            </div>
+            <div class="popup-buttons">
+                <button id="cancel-btn">Cancel</button>
+                <button id="done-btn">Done</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://www.marvinj.org/releases/marvinj-0.7.js"></script>
+</body>
+</html>
