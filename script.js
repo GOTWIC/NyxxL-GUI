@@ -73,12 +73,18 @@ document.getElementById('done-btn').addEventListener('click', function() {
     tabContent.dataset.tabId = tabId;
     tabContent.innerHTML = `
         <div class="button-grid">
-            <button class="grid-button">Item 1</button>
-            <button class="grid-button">Item 2</button>
-            <button class="grid-button">Item 3</button>
-            <button class="grid-button">Item 4</button>
-            <button class="grid-button">Item 5</button>
-            <button class="grid-button">Item 6</button>
+            <button class="grid-button">Rubico</button>
+            <button class="grid-button">Quellor</button>
+            <button class="grid-button">Dual Ether</button>
+            <button class="grid-button">Spectra</button>
+            <button class="grid-button">Convectrix</button>
+            <button class="grid-button">Hate</button>
+            <button class="grid-button">Dread</button>
+            <button class="grid-button">Vectis</button>
+            <button class="grid-button">Lanka</button>
+            <button class="grid-button">Ignis</button>
+            <button class="grid-button">Amprex</button>
+            <button class="grid-button">Orthos</button>
             <!-- Add more buttons as needed -->
         </div>
     `;
